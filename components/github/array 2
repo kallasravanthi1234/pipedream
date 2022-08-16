@@ -1,0 +1,35 @@
+#include <stdio.h>
+int main() 
+{
+	int arr[5];
+	int i; 
+	printf("Enter elements into array\n");
+	for(i=0;i<5;i++)
+	scanf("%d",&arr[i]);
+	int j;
+	int flag;
+	printf("The prime numbers of array \n");
+	for(i=0;i<5;i++)
+	{
+		flag=0;
+		for(j=1;j<arr[i];j++)
+		{
+			if(arr[i]!=1 && arr[i]%2==0)
+			{
+				flag=1;
+				break;
+			}
+		}
+		if(flag==0)
+		printf("%d\t",arr[i]);
+	}
+}
+OUTPUT:-
+Enter elements into array
+3
+5
+7
+9
+10
+The prime numbers of array
+3       5       7       9
