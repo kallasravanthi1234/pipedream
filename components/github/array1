@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main(void)
+{
+int n=0,i,j[4];
+for(i=0;i<4;i++)
+{
+scanf("%d",&j[i]);
+{
+n+=1;
+}
+}
+printf("%d",n);
+retutn 0;
+}
+
+
+
+output:
+12 15 8 10
+
+3
